@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Averta</title>
+    <link rel="stylesheet" href="./../../assets/css/style.css">
+    <link rel="stylesheet" href="./../../assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="./../../assets/css/owl.theme.green.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<style>
+
+
+</style>
+<body>
+    <!-- <h1>Averta Website</h1> -->
+    <!-- navbar section 1 -->
+    <!-- <div class="container-fluid test1" >
+        <div class="row test1" style="height:25.33px">
+            <div class="flex-row-reverse d-flex">
+                <div class="px-2">1</div>
+                <div class="px-2">2</div>
+                <div class="px-2">3</div>
+                <div class="px-2">4</div>
+            </div>
+        </div>
+        <div class="row test1" style="height:45px"></div>
+    </div> -->
+
+    <!-- navbar section 2 -->
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link navbar-sub-slide" aria-current="page" href="./main.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navbar-sub-slide" aria-current="page" href="./../caseStudies/caseStudies.html">Insights</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navbar-sub-slide" href="#">News & Press</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navbar-sub-slide" href="./../careerPage/career.html">Careers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navbar-sub-slide" aria-disabled="true">Contact Us</a>
+        </li>
+    </ul>
+
+    <ul style="padding-left: 0px; margin-bottom: 0px;">
+        <ul class="nav justify-content-between" style="border-top:solid #b2b4bb 1px; ">
+            <div><img class="ps-3" src="./../../assets/images/main-page-images/Averta_Strategy_Logo-2.png" style="z-index: 1;" height="45px" alt=""></div>
+            <div class="d-flex justify-content-end">
+
+
+                <li class="nav-item">
+                    <a class="nav-link navbar-main-slide dropdown-toggle" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Industries</a>
+                    <div class="dropdown-menu" style="width: 53rem; ">
+                        <div class="container text-canter">
+
+                            <div class="row ps-5" id="industries-dropdown">
+                                <!-- html code is render by js from product Content which is present on mainData.js code -->
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link navbar-main-slide dropdown-toggle" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                    <div class="dropdown-menu" style="min-width: 60rem; ">
+                        <div class="container text-center">
+
+                            <div class="row" id="product-dropdown">
+                                <!-- html code is render by js from product Content which is present on mainData.js code -->
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link navbar-main-slide dropdown-toggle" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                    <div class="dropdown-menu" style="min-width: 65rem; ">
+                        <div class="container text-center ps-4">
+
+                            <div class="row ps-5" id="services-dropdown">
+                                <!-- html code is render by js from serviceContent which is present on mainData.js code -->
+                            </div>
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link navbar-main-slide" aria-current="page" href="#">About Us</a>
+                </li>
+
+            </div>
+        </ul>
+    </ul>
+
+
+    <!-- front page crouser section 1 -->
+    <div>
+        <div class="carousel slide carousel-fade" id="carouselExampleCaptions" style="font-family: 'alexandria', Helvetica, Arial, sans-serif;" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container-fluid  d-flex flex-wrap" style="background-image: url(./../../assets/images/main-page-images/crouser-image-1-1.png); background-size: cover;">
+                        <div class="row px-2" style="height: 400px;">
+                            <div class="col fs-4"
+                                style="padding-top: 100px; font-weight: bold; padding-left: 90px; padding-right: 100px;">
+                                <div>Helping various government departments, entrepreneurs & enterprises to become more
+                                    selfsustained, effective, efficient & visible in nations growth</div>
+                                    <button type="button" class="btn rounded-pill btn-dark mt-4 px-4 py-2">Get Started <i class="fa-solid fa-arrow-right-long mx-2"></i>
+                                    </button>
+                            </div>
+                            <div class="col" style="padding-top: 4.5rem;">
+                                <!-- <img src="./../../assets/images/Screenshot 2024-04-12 1751168.png" alt="" width=100%> -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="container-fluid" style="background-image: url(./../../assets/images/main-page-images/crouserImage2-1.png); background-size: cover;">
+                        <div class="row px-2" style="height: 400px;">
+                            <div class="col fs-4"
+                                style="padding-top: 100px; font-weight: bold; padding-left: 90px; padding-right: 100px;">
+                                <div>Empowering businesses through tailored strategies and personalized solutions, our consultancy and product based company is committed to guiding you towards success.</div>
+                                <button type="button" class="btn rounded-pill btn-dark mt-4 px-4 py-2">Get Started <i class="fa-solid fa-arrow-right-long mx-2"></i>
+                                </button>
+                            </div>
+                            <div class="col" style="padding-top: 1rem;">
+                                <!-- <img src="./../../assets/images/krakenimages-376KN_ISplE-unsplash.jpg" width="500px"
+                                    style="border-radius: 0%;" alt="" width=100%></div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- front page crouser section 2 -->
+    <!-- <div class="owl-carousel owl-theme" id="owl-carousel1">
+        <div class="item">
+            
+            <div class="container-fluid  d-flex flex-wrap">
+                <div class="row px-2" style="height: 400px;">
+                    <div class="col fs-4"
+                        style="padding-top: 120px; font-weight: bold; padding-left: 90px; padding-right: 100px;">
+                        <div>Helping various government departments, entrepreneurs & enterprises to become more
+                            selfsustained, effective, efficient & visible in nations growth</div>
+                        <button type="button" class="btn btn-success mt-4">Get Started <i
+                                class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+                    <div class="col" style="padding-top: 4.5rem;"><img
+                            src="./../../assets/images/Screenshot 2024-04-12 1751168.png" alt="" width=100%>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="container-fluid">
+                <div class="row px-2" style="height: 400px;">
+                    <div class="col fs-4"
+                        style="padding-top: 90px; font-weight: bold; padding-left: 90px; padding-right: 100px;">
+                        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita fuga harum
+                            officia ipsa similique exercitationem doloribus Architecto quisquam minima quae
+                            fuga!</div>
+                        <button type="button" class="btn btn-success mt-4">Get Started <i
+                                class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+                    <div class="col" style="padding-top: 1rem;"><img
+                            src="./../../assets/images/krakenimages-376KN_ISplE-unsplash.jpg" width="500px"
+                            style="border-radius: 0%;" alt="" width=100%></div>
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+    <!-- front page crouser section for logos -->
+    <div class="px-4 py-4 mt-2 " style="background-image: linear-gradient(to left, #dfecff, #fafafa);">
+        <h4 class="mb-3">Awards & Recognitions</h4>
+        <div class="owl-carousel owl-theme" id="miniLogos-id">
+            <div class="item item-logo d-flex justify-content-between">
+                <div class="col"><img src="./../../assets/images/main-page-images/logo-1.png" height="108px"></div>
+                <div class="col p-4 d-flex align-content-center">
+                    <div style="height: fit-content;">
+                        Trusted by<br> IIT, Bombay
+                    </div>
+                </div>
+            </div>
+
+            <div  class="item item-logo d-flex justify-content-between">
+                <div class="col"><img src="./../../assets/images/main-page-images/logo2.png" height="108px"></div>
+                <div class="col p-4 d-flex align-content-center">
+                    <div style="height: fit-content;">
+                        Trusted by Government
+                    </div>
+                </div>
+            </div>
+
+            <div  class="item item-logo d-flex justify-content-between">
+                <div class="col"><img src="./../../assets/images/main-page-images/logo-3.png" height="108px"></div>
+                <div class="col p-4 d-flex align-content-center">
+                    <div style="height: fit-content;">
+                        Trusted by Government
+                    </div>
+                </div>
+            </div>
+
+            <div  class="item item-logo d-flex justify-content-between">
+                <div class="col"><img src="./../../assets/images/main-page-images/logo-4.png" height="108px"></div>
+                <div class="col p-4 d-flex align-content-center">
+                    <div style="height: fit-content;">
+                        Trusted by MPK
+                    </div>
+                </div>
+            </div>
+
+            <div  class="item item-logo d-flex justify-content-between">
+                <div class="col"><img src="./../../assets/images/main-page-images/logo-5.png" height="108px"></div>
+                <div class="col p-4 d-flex align-content-center">
+                    <div style="height: fit-content;">
+                        Trusted by Government
+                    </div>
+                </div>
+            </div>
+
+            <div  class="item item-logo d-flex justify-content-between">
+                <div class="col"><img src="./../../assets/images/main-page-images/logo-6.png" height="108px"></div>
+                <div class="col p-4 d-flex align-content-center">
+                    <div style="height: fit-content;">
+                        Trusted by BSSKV
+                    </div>
+                </div>
+            </div>
+            <div  class="item item-logo d-flex justify-content-between">
+                <div class="col"><img src="./../../assets/images/main-page-images/logo-7.png" height="108px"></div>
+                <div class="col p-4 d-flex align-content-center">
+                    <div style="height: fit-content;">
+                        Trusted by Government
+                    </div>
+                </div>
+            </div>
+            <div  class="item item-logo d-flex justify-content-between">
+                <div class="col"><img src="./../../assets/images/main-page-images/logo-8.png" height="108px"></div>
+                <div class="col p-4 d-flex align-content-center">
+                    <div style="height: fit-content;">
+                        partnership with NVIDIA
+                    </div>
+                </div>
+            </div>
+            <!-- <div  class="item item-logo">
+                <h4>9</h4>
+            </div>
+            <div  class="item item-logo">
+                <h4>10</h4>
+            </div>
+            <div  class="item item-logo">
+                <h4>11</h4>
+            </div>
+            <div  class="item item-logo">
+                <h4>12</h4>
+            </div> -->
+        </div>
+    </div>
+
+
+    <!-- footer  -->
+    <div>
+        <footer class="container-fluid border-top pt-3 mt-2">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 pt-5 mb-3 px-5">
+                <div class="col mb-3 pe-2">
+                    <h5>About US</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Averta Strategy a Product based IT start-up is bringing ease & creating a bridge between
+
+                            government and citizens. Our product provide a robust synopsis for high-
+                            level overviews.</a></li>
+                        <button type="button" class="btn btn-dark w-50 mt-2" style="">About Us</button>
+                    </ul>
+                </div>
+
+                <div class="col mb-3 ps-5">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Industries</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">services</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">products</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">career</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Insights</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Official Info</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col mb-3 flex-d justify-content-center">
+
+                    <h4 class="">Follow Us On</h4>
+                    <ul class="list-unstyled d-flex justify-content-start mt-4">
+                        <li class=""><a class="text-body-secondary" href="#"><i class="fa-brands fa-linkedin bi"
+                                    style="font-size:34px;"></i> </a></li>
+                        <li class="" style="margin-left: 15px;"><a class="text-body-secondary" href="#"><i
+                                    class="fa-brands fa-square-whatsapp" style="font-size:34px;"></i></a></li>
+                        <li class="" style="margin-left: 15px;"><a class="text-body-secondary" href="#"><i
+                                    class="fa-brands fa-square-facebook" style="font-size:34px;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="row pb-4 mb-4 pt-4 border-top px-5">
+                <div class="col">
+                    <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="./mainData.js"></script>
+
+    <script src="https://kit.fontawesome.com/8f35e1fe37.js" crossorigin="anonymous"></script>
+    <!-- link of fontawesome -->
+
+    <!-- script for navbar -->
+    <script>
+
+
+        // logic for creating HTML string for services 
+        let servicesDatastr = "";
+        for (let i = 0; i < ServicesData.length; i++) {
+            servicesDatastr += (`<div class="col-3 p-4 text-start" style="font-weight:bold"> ${ServicesData[i][0]}`);
+            for (let j = 1; j < ServicesData[i].length; j++) {
+                servicesDatastr += (`<div style="font-weight:normal"> ${ServicesData[i][j]}</div>`);
+            }
+            servicesDatastr += (`</div>`);
+
+        }
+
+
+        // logic for creating HTML string for products
+        let productDatatr = "";
+        for (let i = 0; i < productsData.length; i++) {
+            productDatatr += (`<div class="col-3 p-4 text-center" style="font-weight:bold">${productsData[i]}</div>`);
+
+        }
+
+
+        // logic for creating HTML string for industries
+        let industriesDataStr = "";
+        for (let i = 0; i < industriesData.length; i++) {
+            industriesDataStr += (`<div class="col-3 p-4 text-start" style="font-weight:bold">${industriesData[i]}</div>`);
+
+        }
+
+        // logic for creating HTML string for 
+        //     let miniLogoDataStr = "";
+        //     for (let i = 0; i < 12 ; i++) {
+        //         miniLogoDataStr += (`        <div class="item d-flex justify-content-between">
+        //         <div class="col"><img src="./../../assets/images/Screenshot 2024-04-13 230138.png" height="108px"></div>
+        //         <div class="col p-2">Lorem ipsum dolor sit amet consectetur</div>
+
+        // </div>`);
+
+        //     }
+
+
+        window.addEventListener('DOMContentLoaded', function () {
+            // logic for displaying services dropdown 
+            var dynamicContentElement = document.getElementById('services-dropdown');
+            dynamicContentElement.innerHTML = servicesDatastr;
+
+            // logic for displaying products dropdown 
+            var dynamicProductContentElement = document.getElementById('product-dropdown');
+            dynamicProductContentElement.innerHTML = productDatatr;
+
+            // logic for displaying industries dropdown 
+            var dynamicIndustiresContentElement = document.getElementById('industries-dropdown');
+            dynamicIndustiresContentElement.innerHTML = industriesDataStr;
+
+            // // logic for displaying minilogos dropdown 
+            // var dynamicMiniLogosContentElement = document.getElementById('miniLogos-id');
+            // dynamicMiniLogosContentElement.innerHTML = miniLogoDataStr; 
+
+        })
+
+
+    </script>
+
+    <script src="./../../assets/js/jquery.min.js"></script>
+    <script src="./../../assets/js/owl.carousel.min.js"></script>
+
+    <!-- <script>
+$('#owl-carousel1').owlCarousel({
+    // animateOut: 'slideOutDown',
+    // animateIn: 'fadeIn',
+    items:1,
+    // margin:30,
+    // stagePadding:30,
+    // // smartSpeed:450,
+    // animateOut: 'fadeOut',
+    // autoplay: true,
+    // autoplayTimeout: 1000,
+    // autoplayHoverPause: true,
+    loop:true ,
+    animateOut: 'fadeOut',
+    animateIn:'fadeInDown',
+    // animateIn: 'fadeOut'
+})
+    </script> -->
+
+
+    <script>
+        var owl = $('.owl-carousel');
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            // nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            },
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true,
+            // owl.trigger('play.owl.autoplay',[1000]),
+            // items:4,,
+            // loop:false,
+            center: true,
+            // margin:10,
+            URLhashListener: true,
+            autoplayHoverPause: true,
+            startPosition: 'URLHash',
+            // dots:false,
+
+        })
+    </script>
+</body>
+
+</html>
